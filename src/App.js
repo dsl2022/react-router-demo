@@ -1,17 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
 
 
-function Dennys(){
-  return <></> 
+export function Dennys(){
+  return <>DENNY</> 
 }
 
-function Albertos(){
-  return <></>
+export function Albertos(){
+  return <>ALBERTO</>
 }
 
-function ChicFilA(){
-  return <></>
+export function ChicFilA(){
+  return <>CHIC-FIL-A</>
 }
 
 function App() {

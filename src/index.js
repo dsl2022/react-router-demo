@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import App,{Dennys,Albertos,ChicFilA} from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 
@@ -11,9 +11,9 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/home" element={<App />} />
-        <Route path="/dennys" element={<App />} />
-        <Route path="/alberto" element={<App />} />
-        <Route path="/chic-fil-a" element={<App />} />
+        <Route path="/dennys" element={<Dennys />} />
+        <Route path="/alberto" element={<Albertos />} />
+        <Route path="/chic-fil-a" element={<ChicFilA />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
